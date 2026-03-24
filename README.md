@@ -129,23 +129,10 @@ outputs/
 - Features are standardized inside each fold before model fitting.
 - The final predictor uses a binary classification objective for synergy prediction.
 
-## 6. Citation
-
-If you find this repository useful in your research, please cite your GraFSyn paper. You can replace the placeholder below with the final publication information:
-
-```bibtex
-@article{grafsyn,
-  title   = {GraFSyn: An Interpretable Deep Learning Framework for Anticancer Drug Synergy},
-  author  = {Author names here},
-  journal = {Journal / Conference name here},
-  year    = {202X}
-}
-```
-
-## 7. Acknowledgement
+## 6. Acknowledgement
 
 We thank the open-source community and the PyTorch ecosystem for providing the tools that support this project. If your implementation builds on prior work, you can also add acknowledgements here for the related methods, datasets, or codebases that inspired GraFSyn.
 
-## 8. License
+## 7. License
 
 Please add the license information that matches your intended release policy.
