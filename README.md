@@ -24,8 +24,8 @@ The overall framework is composed of five major stages shown in the figure above
 
 - **GFE**: constructs graphlet-based structural representations for each drug.
 - **DMSC**: uses multi-scale convolution to capture complementary local patterns.
-- **DAWM**: adaptively reweights multi-scale responses with attention.
-- **CR / IM**: models cross-representation interactions between drug features and cell-line features.
+- **CR**: models long-range intra-modal correlations with self-attention.
+- **IM**: models cross-representation interactions between drug features and cell-line features.
 - **SP**: predicts the final synergy label.
 
 ## 3. Repository Structure
